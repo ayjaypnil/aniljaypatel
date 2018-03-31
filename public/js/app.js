@@ -5,7 +5,7 @@ $("#openNav").on("click", function() {
 
 /* Set the width of the side navigation to 0 */
 $("#closeBtn").on("click", function() {
-
  document.getElementById("mySidenav").style.width = "0";
 });
+
 
