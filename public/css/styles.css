@@ -31,7 +31,8 @@ body {
 
 #menuIcon{
     color: #f1f1f1;
-    margin-left: 10px;
+    vertical-align: middle;
+    margin-right: 15px;
 }
 
 .icons{
@@ -42,55 +43,20 @@ body {
    margin-top: 300px;
 }
 
-.mainImage{
-    margin: 0 auto;
-    
+.side-nav{
+    background:rgba(15, 24, 31, 0.63);
+    color: white;
 }
 
-
-
-
-
-
-/* The side navigation menu */
-
-.sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: rgb(20, 28, 39); /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 50px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-    opacity: .75;
+.side-nav a{
+    height: 45px;
+    color: white;
+    font-size: auto;
 }
 
-/* The navigation menu links */
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #e2f2ffda;
-    display: block;
-    transition: 0.4s;
+img.responsive-img{
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 0;
 }
 
-/* When you mouse over the navigation links, change their color */
-
-.sidenav a:hover {
-    color: #f1f1f1;
-}
-
-/* Position and style the close button (top right corner) */
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}

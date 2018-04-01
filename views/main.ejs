@@ -1,15 +1,14 @@
 <!-- Indlude the Partial for the header including all of the necessary links -->
 <%- include('partials/header') -%>
 
-<!-- including navbar partials -->
-<%- include('partials/navbar') -%>
+
     
     <!-- menu and social icons block -->
         <div class="row icons">
 
-            <span id="openNav">
-                <i class="material-icons medium" id="menuIcon">menu</i>
-            </span>
+            <a href="#" data-activates="mobile-demo" class="button-collapse show-on-large">
+                <i class="material-icons medium" id="menuIcon" >menu</i>
+            </a>
 
             <div class="col-sm-3" id="socialBar">
                 <a href="https://github.com/ayjaypnil" target="_blank">
@@ -22,20 +21,23 @@
         </div>
     <!-- end menu and social icons block -->
 
-<!-- start container div -->
-    <div class="container">
+            <div class="col-sm-4">
+                <!-- including navbar partials -->
+                <%- include('partials/navbar') -%>
+            </div>
 
+<!-- start container div -->
+    <div class="container closebtn">
+        <div class="row">
         <!-- buttons block -->
-        <center>
-            <div class="row btnBar">
-                <div class="col-sm-6">
+            <center>
+                <div class="col-sm-6 btnBar">
                     <a class="btn btn-large btnOpac"> < PORTFOLIO > </a>
                     <a class="btn btn-large btnOpac"> < / THOUGHTS > </a>
                 </div>
-            </div>
-        </center>
+            </center>
         <!-- end buttons block -->
-
+        </div>
 
 <!-- end container div -->
     </div>
