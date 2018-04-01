@@ -1,6 +1,5 @@
 
 body {
-    background: url("/images/openroad.jpg");
      background-repeat: no-repeat;
      background-attachment: fixed;
      background-position: center;;
@@ -63,3 +62,11 @@ img.responsive-img{
     background: rgba(15, 21, 27, 0.829)
 }
 
+.projectCard {
+    color:rgba(255, 255, 255, 0.925);
+    background: rgba(11, 11, 26, 0.747);
+}
+
+.card-title{
+    padding-top: 15px;
+}

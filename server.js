@@ -18,6 +18,11 @@ app.get("/", function(req, res) {
     res.render(__dirname + "/views/main.ejs");
 }); 
 
+// Route to home page
+app.get("/project", function(req, res) {
+    res.render(__dirname + "/views/project.ejs");
+}); 
+
 // App is listening on local 3000 or assigned port
 app.listen(PORT, function(err) {
   if (err) throw err;

@@ -7,7 +7,19 @@ $(document).ready(function(){
       draggable: true // Choose whether you can drag to open on touch screens
     }
   );
+    $(".parallax").parallax();
 });
  
  // START OPEN
   $('.button-collapse').sideNav('show');
+
+
+// $(".fixed-action-btn").floatingActionButton({ options,
+//   direction: 'left'
+// });
+
+
+
+  
+ 
+ 

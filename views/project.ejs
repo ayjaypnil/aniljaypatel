@@ -1,0 +1,134 @@
+<!-- Indlude the Partial for the header including all of the necessary links -->
+<%- include('partials/header') -%>
+
+<!-- different backgrounds on each of the pages -->
+<style type="text/css">
+    body {
+        background: url("/images/project.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;;
+        background-size: cover;
+    }
+</style>
+
+<!-- finish off the header with these two tags -->
+    </head>
+<body>
+
+    <!-- menu and social icons block -->
+    <div class="row icons">
+    
+        <a href="#" data-activates="mobile-demo" class="button-collapse show-on-large">
+            <i class="material-icons medium" id="menuIcon">menu</i>
+        </a>
+    
+        <div class="col-sm-3" id="socialBar">
+            <a href="https://github.com/ayjaypnil" target="_blank">
+                <img class="socialIcon" src="/images/GitHub-Mark-Light-32px.png">
+            </a>
+            <a href="https://linkedin.com/in/aniljaypatel" target="_blank">
+                <img class="socialIcon" src="/images/In-White-34px-TM.png">
+            </a>
+        </div>
+    </div>
+    <!-- end menu and social icons block -->
+
+    <div class="col-sm-4">
+    <!-- including navbar partials -->
+        <%- include('partials/navbar') -%>
+    </div>
+
+    <!-- container begin -->
+    <div class="container">
+
+        <br>
+        <br>
+        <br>
+
+            <div class="row">
+               <div class="sm-col-12">
+                    <div class="card projectCard z-depth-5">
+                        <div class="card-title">
+                            <center><strong>Trend10</strong></center>
+                        </div>
+                            <div class="card-content white-text">
+                                
+                                <p><strong>What + Why = </strong> There are many news aggregators out on the market, however, Trend10 offers a differentiating point of aggregating
+                                from top sources chosen by either category or the actual source. The sleek, easy-to-use, and fun interface offers a portal in which users can be 
+                                fully immersed in the most relevant stories happening in the world. Data is updated in real-time to reflect the most up-to-date news stories that are 
+                                trending. Trend10 was built with those on the go in mind, 10 minutes on Trend10 gives the user the ability to intelligently engage in thought provoking 
+                                discussion and awareness.</p>
+                                <br>  
+                                <p><strong>How: </strong> Trend10 was built with HTML5, CSS, Front-End Framework Bootstrap, jQuery, AJAX, Javascript and deployed via github.</p>
+                            </div>
+                            <div class="card-action">
+                                    <a href="https://ayjaypnil.github.io/trendten/" target="_blank">
+                                    <i class="material-icons " id="menuIcon">grade</i>Live Demo</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="sm-col-12">
+                    <div class="card projectCard z-depth-5">
+                        <div class="card-title">
+                            <center><strong>BarrSpecials.com</strong></center>
+                        </div>
+                            <div class="card-content white-text">
+                                
+                                <p><strong>What + Why = </strong> BarrSpecials.com is the one-stop webapp that allows users to see the bar and restaurant specials for the selected location
+                                presented in a sleek format. BarrSpecials.com was created to encourage those on a budget in a big city like Chicago or on college campuses such as in the Big 10
+                                to get out and socialize without hurting the wallet.</p>
+                                <br>
+                                <p><strong>How: </strong> BarrSpecials.com was built on WordPress utilizing the Shortcodes, Content Blocks, Ninja Forms, Responsive Tabs, Search Engine Visibility,
+                                and Contact widgets. </p>
+                            </div>
+                            <div class="card-action">
+                                    <a href="https://barrspecials.com" target="_blank">
+                                    <i class="material-icons " id="menuIcon">grade</i>Go: BarrSpecials.com</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="sm-col-12">
+                    <div class="card projectCard z-depth-5">
+                        <div class="card-title">
+                            <center><strong>Northwestern University Coding Bootcamp Network</strong></center>
+                        </div>
+                            <div class="card-content white-text">
+                                
+                                <p><strong>What + Why = </strong> The NU Coding Bootcamp Network was designed to connect all of the current past and future alumni of the program.
+                                It allows registered users to create an account that will permit them to see the current network, upcoming events, and posted jobs. This platform
+                                was built with both alum and current students in mind. Connections as these foster further learning, development, and relationships that fuel current
+                                students career trajectories as well as allow alumni to reach out to mentor and interact.</p>
+                                <br>
+                                <p><strong>How: </strong> The NU Network was built using HTML5, CSS, Front-End Framework Materialize, jQuery, AJAX, nodeJS, mySQL + WorkBench, 
+                                expressJS, EJS, many other unique npm packages, github, and Heroku for deployment.</p>
+                            </div>
+                            <div class="card-action">
+                                    <a href="https://northwestern-bc-network.herokuapp.com/" target="_blank">
+                                    <i class="material-icons " id="menuIcon">grade</i>Live Demo</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+
+                   
+
+
+    <!-- container end -->
+    </div>
+
+
+
+<!-- Include the Partial for the bottom finishing the html -->
+<%- include('partials/bottom') -%>
