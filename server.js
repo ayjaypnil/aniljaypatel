@@ -18,9 +18,14 @@ app.get("/", function(req, res) {
     res.render(__dirname + "/views/main.ejs");
 }); 
 
-// Route to home page
+// Route to project page
 app.get("/project", function(req, res) {
     res.render(__dirname + "/views/project.ejs");
+}); 
+
+// Route to project page
+app.get("/law", function(req, res) {
+    res.render(__dirname + "/views/law.ejs");
 }); 
 
 // App is listening on local 3000 or assigned port

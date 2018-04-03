@@ -70,3 +70,20 @@ img.responsive-img{
 .card-title{
     padding-top: 15px;
 }
+
+.cardTitleText{
+    font-size: 30px;
+}
+.cardWhatWhy{
+    font-size: 18px;
+}
+
+.cardHowText{
+    font-size: 18px;
+}
+
+.lawCard{
+    background: rgba(61, 61, 61, 0.568);
+    color: white;
+    padding: 10px;
+}
