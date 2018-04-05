@@ -1,0 +1,56 @@
+<!-- Indlude the Partial for the header including all of the necessary links -->
+<%- include('partials/header') -%>
+
+    <!-- different backgrounds on each of the pages -->
+    <style type="text/css">
+        body {
+            background: url("/images/darkforestroad.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+
+    <!-- finish off the header with these two tags -->
+    </head>
+
+    <body>
+
+        <!-- menu and social icons block -->
+        <div class="row icons">
+
+            <a href="#" data-activates="mobile-demo" class="button-collapse show-on-large">
+                <i class="material-icons medium" id="menuIcon">menu</i>
+            </a>
+
+            <div class="col-sm-3" id="socialBar">
+                <a href="https://github.com/ayjaypnil" target="_blank">
+                    <img class="socialIcon" src="/images/GitHub-Mark-Light-32px.png">
+                </a>
+                <a href="https://linkedin.com/in/aniljaypatel" target="_blank">
+                    <img class="socialIcon" src="/images/In-White-34px-TM.png">
+                </a>
+            </div>
+        </div>
+        <!-- end menu and social icons block -->
+
+        <div class="col-sm-4">
+            <!-- including navbar partials -->
+            <%- include('partials/navbar') -%>
+        </div>
+
+        <!-- begin container -->
+        <div class="container">
+
+
+
+
+
+        <!-- container end -->
+        </div>
+
+
+
+<!-- Include the Partial for the bottom finishing the html -->
+<%- include('partials/bottom') -%>

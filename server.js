@@ -28,6 +28,11 @@ app.get("/law", function(req, res) {
     res.render(__dirname + "/views/law.ejs");
 }); 
 
+// Route to project page
+app.get("/blog", function(req, res) {
+    res.render(__dirname + "/views/blog.ejs");
+}); 
+
 // App is listening on local 3000 or assigned port
 app.listen(PORT, function(err) {
   if (err) throw err;
