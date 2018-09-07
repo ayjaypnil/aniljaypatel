@@ -1,89 +1,88 @@
-
 body {
-     background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-position: center;;
-     background-size: cover
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
-.socialIcon{
-    opacity: 0.98;
-    margin-right: 1.5vw;
+.socialIcon {
+  opacity: 0.98;
+  margin-right: 1.5vw;
 }
 
-.btnOpac{
-    color: black;
-    opacity: .68;
-    background: white;
+.btnOpac {
+  color: black;
+  opacity: 0.68;
+  background: white;
 }
 .btnOpac:hover {
-    color: black;
-    opacity: 1;
-    background: white;
+  color: black;
+  opacity: 1;
+  background: white;
 }
 
-#socialBar{
-    float: right;
-    margin-top: 10px;
-    margin-right: 12px;
+#socialBar {
+  float: right;
+  margin-top: 10px;
+  margin-right: 12px;
 }
 
-#menuIcon{
-    color: #f1f1f1;
-    vertical-align: middle;
-    margin-right: 15px;
+#menuIcon {
+  color: #f1f1f1;
+  vertical-align: middle;
+  margin-right: 15px;
 }
 
-.icons{
-    margin-top: 20px;
+.icons {
+  margin-top: 20px;
 }
 
-.btnBar{
-   margin-top: 300px;
+.btnBar {
+  margin-top: 300px;
 }
 
-.side-nav{
-    background:rgba(15, 24, 31, 0.63);
-    color: white;
+.side-nav {
+  background: rgba(15, 24, 31, 0.63);
+  color: white;
 }
 
-.side-nav a{
-    height: 45px;
-    color: white;
-    font-size: auto;
+.side-nav a {
+  height: 45px;
+  color: white;
+  font-size: auto;
 }
 
-img.responsive-img{
-    max-width: 50%;
-    height: auto;
-    margin-bottom: 0;
+img.responsive-img {
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 0;
 }
-#touchMenu{
-    background: rgba(15, 21, 27, 0.829)
+#touchMenu {
+  background: rgb(0, 0, 0);
 }
 
 .projectCard {
-    color:rgba(255, 255, 255, 0.925);
-    background: rgba(8, 8, 10, 0.747);
+  color: rgba(255, 255, 255, 0.925);
+  background: rgba(8, 8, 10, 0.747);
 }
 
-.card-title{
-    padding-top: 15px;
+.card-title {
+  padding-top: 15px;
 }
 
-.cardTitleText{
-    font-size: 30px;
+.cardTitleText {
+  font-size: 30px;
 }
-.cardWhatWhy{
-    font-size: 18px;
-}
-
-.cardHowText{
-    font-size: 18px;
+.cardWhatWhy {
+  font-size: 18px;
 }
 
-.lawCard{
-    background: rgba(61, 61, 61, 0.747);
-    color: white;
-    padding: 10px;
+.cardHowText {
+  font-size: 18px;
+}
+
+.lawCard {
+  background: rgba(61, 61, 61, 0.747);
+  color: white;
+  padding: 10px;
 }

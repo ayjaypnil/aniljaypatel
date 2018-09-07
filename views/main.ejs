@@ -1,72 +1,79 @@
 <!-- Indlude the Partial for the header including all of the necessary links -->
 <%- include('partials/header') -%>
 
-<style type="text/css">
-body{
-    background: url("/images/openroad.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-</style>
-<!-- finish off the header with these two tags -->
+    <style type="text/css">
+        body {
+            background: url("/images/openroad.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+    <!-- finish off the header with these two tags -->
     </head>
-<body>
 
-    
-    <!-- menu and social icons block -->
+    <body>
+
+
+        <!-- menu and social icons block -->
         <div class="row icons">
 
             <a href="#" data-activates="mobile-demo" class="button-collapse show-on-large">
-                <i class="material-icons medium" id="menuIcon" >menu</i>
+                <i class="material-icons medium" id="menuIcon">menu</i>
             </a>
 
             <div class="col-sm-3" id="socialBar">
                 <a href="https://github.com/ayjaypnil" target="_blank">
-                    <img class= "socialIcon" src="/images/GitHub-Mark-Light-32px.png">
+                    <img class="socialIcon" src="/images/GitHub-Mark-Light-32px.png">
                 </a>
                 <a href="https://linkedin.com/in/aniljaypatel" target="_blank">
                     <img class="socialIcon" src="/images/In-White-34px-TM.png">
                 </a>
             </div>
         </div>
-    <!-- end menu and social icons block -->
+        <!-- end menu and social icons block -->
 
-            <div class="col-sm-4">
-                <!-- including navbar partials -->
-                <%- include('partials/navbar') -%>
+        <div class="col-sm-4">
+            <!-- including navbar partials -->
+            <%- include('partials/navbar') -%>
+        </div>
+
+        <!-- start container div -->
+        <div class="container closebtn">
+            <div class="row">
+                <!-- buttons block -->
+                <center>
+                    <div class="col-sm-6 btnBar">
+                        <a href="/project" class="btn btn-large btnOpac">
+                            < PORTFOLIO>
+                        </a>
+                        <a href="/blog" class="btn btn-large btnOpac">
+                            < / THOUGHTS>
+                        </a>
+                    </div>
+                </center>
+                <!-- end buttons block -->
             </div>
 
-<!-- start container div -->
-    <div class="container closebtn">
-        <div class="row">
-        <!-- buttons block -->
-            <center>
-                <div class="col-sm-6 btnBar">
-                    <a href="/project" class="btn btn-large btnOpac"> < PORTFOLIO > </a>
-                    <a href="/blog" class="btn btn-large btnOpac"> < / THOUGHTS > </a>
-                </div>
-            </center>
-        <!-- end buttons block -->
-        </div>
 
-        <div class="fixed-action-btn direction-left">
-             
-            <a class="btn-floating btn-large" id="touchMenu">
-                <i class="large material-icons touchMenu">grade</i>
+            <div class="fixed-action-btn">
+                <a class="btn-floating btn-large red">
+                    <i class="large material-icons" id="touchMenu">grade</i>
+                </a>
+                <ul>
+                    <li>
+                        <iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Fuser-851825356&color=black_white&size=32"
+                            style="width: 32px; height: 32px;"></iframe>
+                    </li>
+                </ul>
+            </div>
             </a>
             <ul>
-                <li><iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Fuser-851825356&color=black_white&size=32"
-                    style="width: 32px; height: 32px;"></iframe></li>
-                <!-- <li><a class="btn-floating blue darken-1"><i class="material-icons">format_quote</i></a></li> -->
-            </ul>
+
+                <!-- end container div -->
         </div>
-      
-<!-- end container div -->
-    </div>
 
 
-<!-- Include the Partial for the bottom finishing the html -->
-<%- include('partials/bottom') -%>
+        <!-- Include the Partial for the bottom finishing the html -->
+        <%- include('partials/bottom') -%>
