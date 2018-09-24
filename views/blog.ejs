@@ -10,6 +10,12 @@
             background-position: center;
             background-size: cover;
         }
+
+        .collapsible-header,
+        .collapsible-body {
+            background: rgba(0, 0, 0, 0.084);
+            color: white;
+        }
     </style>
 
     <!-- finish off the header with these two tags -->
@@ -40,93 +46,41 @@
             <%- include('partials/navbar') -%>
         </div>
 
-        <!-- begin container -->
-        <!-- <div class="container">
+        <br>
+        <br>
+        <div class="container">
 
-
-
-            <div class="row">
-                <div class="sm-col-12">
-                    <div class="card projectCard z-depth-5">
-                        <div class="card-title">
-                            <span class="cardTitleText">
-                                <center>
-                                    <strong>The Power Belongs to the Consumer</strong>
-                                </center>
-                            </span>
-                        </div>
-                        <div class="card-content white-text">
-                            <p class="left">
-                                <em>May 2015</em>
-                            </p>
-                            <br>
-                            <p>
-                                <span class="cardWhatWhy">
-                                    <strong></strong>
-                                </span> insert the content here...</p>
-                            <br>
-
-                        </div>
-                        <div class="card-action">
-                            <p>
-                                <span class="cardHowText">
-                                    <center>Notes</center>
-                                </span>
-                                <ul>
-                                    <li>
-                                        [1] This essay was inspired by the customer support at Comcast.
-                                    </li>
-                                </ul>
-                            </p>
-                        </div>
+            <ul class="collapsible">
+                <li>
+                    <div class="collapsible-header">
+                        <center>First</center>
                     </div>
-                </div>
-            </div> -->
-
-        <!-- <div class="row">
-                <div class="sm-col-12">
-                    <div class="card projectCard z-depth-5">
-                        <div class="card-title">
-                            <span class="cardTitleText">
-                                <center>
-                                    <strong>How to be REALLY Good at Super Smash - N64</strong>
-                                </center>
-                            </span>
-                        </div>
-                        <div class="card-content white-text">
-                            <p class="left">
-                                <em>March 2013</em>
-                            </p>
-                            <br>
-                            <p>
-                                <span class="cardWhatWhy">
-                                    <strong></strong>
-                                </span> insert the content here...</p>
-                            <br>
-
-                        </div>
-                        <div class="card-action">
-                            <p>
-                                <span class="cardHowText">
-                                    <center>Notes</center>
-                                </span>
-                                <ul>
-                                    <li>
-                                        [1] hit boxes and edges.
-                                    </li>
-                                </ul>
-                            </p>
-                        </div>
+                    <div class="collapsible-body">
+                        <span class="left">date</span>
+                        <p>Lorem ipsum dolor sit amet.</p>
                     </div>
-                </div>
-            </div> -->
+                </li>
 
+                <li>
+                    <div class="collapsible-header">
+                        <center>First</center>
+                    </div>
+                    <div class="collapsible-body">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </div>
+                </li>
 
+                <li>
+                    <div class="collapsible-header">
+                        <center>First</center>
+                    </div>
+                    <div class="collapsible-body">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </div>
+                </li>
+            </ul>
 
-        <!-- container end -->
-        <!-- </div> -->
-
-
+        </div>
 
         <!-- Include the Partial for the bottom finishing the html -->
         <%- include('partials/bottom') -%>
